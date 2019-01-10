@@ -1,0 +1,29 @@
+/*Sets grey background*/
+body{
+	background-color: #C7C1C1;
+}
+
+/*Sets whole page inside body to white colour with minimum and maximum widths.
+Sets margin to automatically create even left and right spaces.
+Sets font and postion.*/
+#content{
+	position: relative;
+	background-color: white;
+	min-width: 510px;
+	max-width: 960px;
+	margin: 0 auto;
+	font-family: "Palatino Linotype", "Times", serif;
+}
+
+/*Sets header colour and font*/
+h1, h2, h3{
+	color: #004A83;
+	font-family: "Lucida Sans Unicode", "Times", serif;
+	margin:10px 0 20px 10px;
+}
+
+p{
+	font-family: "Palatino Linotype", "Times", serif;
+	margin:10px 10px 20px 10px;
+	font-size: 16px;
+}
